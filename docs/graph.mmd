@@ -1,0 +1,27 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	plan(plan)
+	retrieve(retrieve)
+	draft(draft)
+	check(check)
+	answer(answer)
+	refuse(refuse)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> plan;
+	check -.-> answer;
+	check -.-> refuse;
+	draft --> check;
+	plan --> retrieve;
+	retrieve -.-> draft;
+	retrieve -.-> refuse;
+	answer --> __end__;
+	refuse --> __end__;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
+
