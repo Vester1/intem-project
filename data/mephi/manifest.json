@@ -1,1 +1,62 @@
-
+[
+  {
+    "url": "https://mephi.ru/content/public/uploads/files/imported/system/documents/Ver_2017/PR%205.5-01%20ver.1.1.pdf",
+    "file": "data/mephi/14950d98285f.pdf",
+    "title": "Правила внутреннего распорядка обучающихся федерального государственного автономного образовательного учреждения высшего образования \"Национальный исследовательский ядерный университет \"МИФИ\"",
+    "category": "core",
+    "catalog_url": "https://mephi.ru/sveden/document",
+    "source_type": "pdf",
+    "downloaded_at": "2026-10-25T10:53:10.099071+00:00",
+    "sha256": "6ad0d252320a2a72649b9bbb0896524c2c02b4d4e874b7221b6f4d47864431d4",
+    "authority": "НИЯУ МИФИ",
+    "validity": "published_in_official_catalog_not_legally_verified",
+    "chunks": 55,
+    "status": "indexed",
+    "active": true
+  },
+  {
+    "url": "https://mephi.ru/content/public/uploads/files/imported/system/documents/Ver_2017_2/PL%207.5-06_ver%203.2.pdf",
+    "file": "data/mephi/c7579f142909.pdf",
+    "title": "Положение о кредитно-модульной системе НИЯУ МИФИ",
+    "category": "core",
+    "catalog_url": "https://mephi.ru/sveden/document",
+    "source_type": "pdf",
+    "downloaded_at": "2026-10-25T10:53:10.781181+00:00",
+    "sha256": "e22dbf46cd0536fe8cc010b3bd4b1b46264a5f2d5ce1f9a6ba2017a0ff12bffb",
+    "authority": "НИЯУ МИФИ",
+    "validity": "published_in_official_catalog_not_legally_verified",
+    "chunks": 54,
+    "status": "indexed",
+    "active": true
+  },
+  {
+    "url": "https://mephi.ru/content/public/uploads/files/education/docs/SMK/pl_8.2-01_ver.2.0_corr.pdf",
+    "file": "data/mephi/10d1cf902e2b.pdf",
+    "title": "Положение о промежуточной аттестации обучающихся НИЯУ МИФИ",
+    "category": "core",
+    "catalog_url": "https://mephi.ru/sveden/document",
+    "source_type": "pdf",
+    "downloaded_at": "2026-10-25T10:53:11.457857+00:00",
+    "sha256": "0d88325b34da28bd264439c5189ebeb9e14faa0b029cbacb3123d612124f8bcb",
+    "authority": "НИЯУ МИФИ",
+    "validity": "published_in_official_catalog_not_legally_verified",
+    "chunks": 41,
+    "status": "indexed",
+    "active": true
+  },
+  {
+    "url": "https://mephi.ru/content/public/uploads/files/education/docs/SMK/pl_7.5-05_ver_2.3_0.pdf",
+    "file": "data/mephi/ce659ba9c2b6.pdf",
+    "title": "Положение о порядке перевода, восстановления и отчисления обучающихся НИЯУ МИФИ",
+    "category": "core",
+    "catalog_url": "https://mephi.ru/sveden/document",
+    "source_type": "pdf",
+    "downloaded_at": "2026-10-25T10:53:12.014199+00:00",
+    "sha256": "0af6906589d5c44d9ab86c6302b752ef35fa4fbad3c120e61ca613d412d50d59",
+    "authority": "НИЯУ МИФИ",
+    "validity": "published_in_official_catalog_not_legally_verified",
+    "chunks": 70,
+    "status": "indexed",
+    "active": true
+  }
+]
