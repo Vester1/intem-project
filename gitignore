@@ -1,0 +1,34 @@
+# Локальные настройки и учётные данные
+.env
+.env.*
+!.env.example
+
+# Окружения Python и создаваемые файлы
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+.coverage.*
+htmlcov/
+
+# Данные, создаваемые при работе приложения
+var/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+
+# Файлы редакторов и операционной системы
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
