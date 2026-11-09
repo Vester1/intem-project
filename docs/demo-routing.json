@@ -1,0 +1,88 @@
+{
+  "mode": "demo",
+  "description": "Фактический запуск без LLM; проверка маршрутизации, не оценка качества ответов.",
+  "cases": [
+    {
+      "question": "Как ликвидируется академическая задолженность?",
+      "refused": false,
+      "route": [
+        "plan",
+        "retrieve",
+        "draft",
+        "check",
+        "answer"
+      ],
+      "trace": [
+        {
+          "agent": "supervisor",
+          "event": "plan",
+          "queries": [
+            "Как ликвидируется академическая задолженность"
+          ]
+        },
+        {
+          "agent": "retrieval",
+          "event": "search",
+          "tool": "hybrid_search",
+          "queries": [
+            "Как ликвидируется академическая задолженность"
+          ]
+        },
+        {
+          "agent": "retrieval",
+          "event": "evidence_ready",
+          "count": 10
+        },
+        {
+          "agent": "supervisor",
+          "event": "draft",
+          "claims": 2
+        },
+        {
+          "agent": "fact_checker",
+          "event": "accepted",
+          "issues": []
+        },
+        {
+          "agent": "supervisor",
+          "event": "answer"
+        }
+      ]
+    },
+    {
+      "question": "Сколько стоит полёт на Марс?",
+      "refused": true,
+      "route": [
+        "plan",
+        "retrieve",
+        "refuse"
+      ],
+      "trace": [
+        {
+          "agent": "supervisor",
+          "event": "plan",
+          "queries": [
+            "Сколько стоит полёт на Марс"
+          ]
+        },
+        {
+          "agent": "retrieval",
+          "event": "search",
+          "tool": "hybrid_search",
+          "queries": [
+            "Сколько стоит полёт на Марс"
+          ]
+        },
+        {
+          "agent": "retrieval",
+          "event": "evidence_ready",
+          "count": 0
+        },
+        {
+          "agent": "supervisor",
+          "event": "refusal"
+        }
+      ]
+    }
+  ]
+}
